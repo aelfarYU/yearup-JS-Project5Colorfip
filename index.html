@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Abdallah Elfar">
+		<meta name="description" content="StopWatch for Year Up">
+		<title>Year Up</title>
+		<link rel="stylesheet" type="text/css" href="./style.css">
+		<link rel="icon" href="./Yearupicon.png" type="image/x-icon">
+		
+		
+	</head>
+<body>
+		 <nav id="nav">
+
+            <ul class="topnav">
+                <li ><a href="./index.html" >Home</a></li>
+                <li><a href="./index.html" >About</a></li>
+                <li><a href="./index.html" >Contact</a></li>
+            </ul>
+            
+        </nav>
+		
+		<div class="content">
+
+			<div class="container">
+				<h2>Press to try new colors</h2>
+				<button class="btn btn-hero" id="btn">click me</button>
+			</div>
+
+			<div id="stopwatchContainer">
+				<div id="stopwatch">
+					00:00:00
+				</div>
+		
+				<ul id="buttons">
+					<li><button onclick="startTimer()" id="start">Start</button></li>
+					<li><button onclick="stopTimer()" id="stop">Stop</button></li>
+		
+					<li><button onclick="resetTimer()" id="reset">Reset</button></li>
+				</ul>
+			</div>
+
+			<h1> StopWatch</h1>
+			<p style="height: 250px;">
+				<h2>Background color : <span class="backgroundColor">#cccccc</span></h2>
+				<h2>Start color : <span class="startColor">#4CAF50</span></h2>
+				<h2>Stop color : <span class="stopColor">#ff0000</span></h2>
+				<h2>Reset color : <span class="resetColor">#4169e1</span></h2>
+			</p>
+		</div>
+		
+		<script src="./script.js"></script> 
+
+
+
+</body>
+</html>
